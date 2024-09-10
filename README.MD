@@ -8,7 +8,6 @@ Welcome to the Travel Advisor web application! This platform provides travelers 
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -37,8 +36,8 @@ Welcome to the Travel Advisor web application! This platform provides travelers 
 - **Safety Tips Page:** Offers essential safety tips for travelers.
 - **Subscription Page:** Allows users to subscribe for updates and alerts.
 
-Contact
-If you have any questions or feedback, please contact:
+## Contact
+- If you have any questions or feedback, please contact:
 
-Email: your-email@example.com
-GitHub: yourusername
+Email: lindsaynasseima@gmail.com
+GitHub: https://github.com/Nasseima
