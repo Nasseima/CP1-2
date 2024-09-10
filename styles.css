@@ -1,0 +1,213 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.features {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.features .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    flex: 0 0 80px;
+    margin-right: 20px;
+}
+
+.feature-icon img {
+    max-width: 100%;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature h3 {
+    margin-top: 0;
+}
+
+.cta {
+    padding: 40px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta p {
+    margin-bottom: 20px;
+}
+
+.subscription-form {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.subscription-form h2 {
+    margin-bottom: 20px;
+}
+
+.subscription-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.subscription-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.subscription-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscription-form button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #555;
+}
+
+.travel-tips {
+    padding: 40px 20px;
+}
+
+.travel-tips h2 {
+    margin-bottom: 20px;
+}
+
+.travel-tips ul {
+    list-style: none;
+    padding: 0;
+}
+
+.travel-tips ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
